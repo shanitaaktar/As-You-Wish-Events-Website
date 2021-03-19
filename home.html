@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+
+<html> 
+<head>
+    
+<meta charset="UTF-8">
+<meta name="keywords" content="event, event planning, wedding, party, decor, decoration, as you wish">
+<meta name="description" content="Luxury Event Planning">
+<meta name="author" name="Shanita Aktar">
+<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<title>Home</title>
+
+<style>
+        
+/** Navigation Bar **/
+        
+#Navigation-bar-container {
+z-index: 1;
+position: fixed;
+float: none;
+display: block;
+background-color: white;
+width: 100%;
+height: 150px;
+min-width: 1500px;
+}
+     
+#Nav-bar-text {
+display: block !important;
+font-family: Arial, Helvetica, sans-serif;
+color: black; 
+font-size: 15px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-right: 50px;
+margin-top: 10px;
+z-index: 2;
+}
+        
+#Navigation-bar-container a:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+                
+#Navigation-bar-container img {
+position: relative;
+}
+        
+#logoimg {
+width: 210px;
+top: 5px;
+left: 550px;
+}
+        
+        
+/** The Menu Bar Dropdown Styles **/
+        
+ul {
+list-style-type: none;
+margin: -80px;
+padding: -5px;;
+background-color: none;
+}
+ 
+li {
+float: left;
+}
+ 
+li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+  
+li a:hover, .dropdown:hover .dropbtn {
+background-color: none;
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: none;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+text-transform: uppercase;
+font-size: 15px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover{
+background-color: none;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+        
+  /**Additional Margins For Nav Bar Text**/
+        
+.gallery-margin {
+margin-left: 300px;
+}
+
+.home-margin {
+margin-left: 126px;
+}
+
+ /**Front Page Slideshow**/
+        
+body {
+font-family: Verdana, sans-serif; margin: 0;
+}
+        
+.mySlides {
+display: none;
+animation: animate 40s ease;
+position: absolute;
+transform: scaleX(1.732);
+-webkit-transform: scaleX(1.732);
+}
+        
+.slideshowphoto {
+min-width: 500px;
+width: 400px;
+height: 250px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+  
+.slideshow-container {
+width: 10%;
+min-width: 1px;
+position: relative;
+margin: 0;
+padding: 0;
+margin-top: 150px;
+float: left;
+animation: move 3s infinite ease-in-out;
+}
+  
+@-webkit-keyframes fade{
+from {opacity: .4}
+to {opacity: 1}
+}
+            
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+    
+        
+/** Content Front Page Ethos Details **/
+    
+        
+#underline {
+position: absolute;
+float: left;
+width: 200px;
+height: 8px; 
+margin-top: 935px;
+margin-left: 550px;
+}
+        
+#content-title {
+font-family: Arial, Helvetica, sans-serif;
+color: black; 
+font-size: 30px;
+letter-spacing: 5px;
+text-transform: uppercase;
+margin-right: 27px;
+font-weight: normal;
+float: left;
+margin-left: 680px;
+margin-top: 865px;
+position: absolute;
+z-index: 1;
+
+}
+        
+#frontpagetext {
+font-family: Arial, Helvetica, sans-serif;
+color: black; 
+font-size: 16px;
+letter-spacing: 1px;
+float: left;
+margin-top: 980px;
+position: relative;
+left: 550px;
+}
+        
+#photograb {
+position: absolute;
+margin-top: 860px;
+left: 220px;
+} 
+        
+/** Testimonial Slideshow **/
+
+        
+*{
+box-sizing: border-box;
+}
+    
+body {
+font-family: Verdana, sans-serif; 
+margin:0;
+}
+
+.Testimonial-container {
+position: relative;
+margin-top: 1450px;
+box-sizing: border-box;
+width: 900px;
+height: 400px;
+padding: 10px;
+margin-left: 200px;
+margin-right: 200px;
+margin-bottom: 50px;
+}
+    
+.myTestimonial {
+position: relative;
+display: none;
+text-align: center;
+padding: 50px;
+margin-top: -270px;
+text-align-last: center;
+}
+    
+#yellow {
+width: 1500px;
+height: 350px;
+margin: auto;
+margin-top: -100px;
+margin-left: -250px;
+}
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -150px;
+padding: 16px;
+color: #888;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+.next {
+position: absolute;
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+color: black;
+}
+
+/**.dot-container {
+text-align: center;
+padding: 20px;
+background: #fbdf57;
+padding-top: 2px;
+}**/
+
+/**.dot {
+text-align: center;
+cursor: pointer;
+height: 12px;
+width: 13px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+padding-top: 2px;
+}**/
+
+
+/**.active, .dot:hover {
+background-color: #717171;
+}**/
+
+
+q {
+font-style: italic;
+color: black;
+font-size: 18px;
+text-align: center;
+font-weight: bold;
+}
+
+.author {
+color: black;
+font-size: 14px;
+}
+
+    
+/** Frontpage Blocks **/
+    
+#frontpageblocks {
+width: 1000px;
+height: 1500px
+}
+    
+#weddingsicon {
+position: relative;
+float: left;
+margin-left: 45px;
+margin-top: -120px;
+}
+    
+#partiesicon {
+position: relative;
+float: left;
+margin-left: 20px;
+margin-top: -120px;
+}
+    
+#destinationsicon {
+position: relative;
+float: left;
+margin-left: 20px;
+margin-top: -120px;
+}
+    
+#coursesandworkshopsicon {
+position: relative;
+float: left;
+margin-left: 20px;
+margin-top: -120px;
+}
+    
+/** Second Row Front Pages Blocks**/
+    
+#booksicon {
+position: relative;
+float: left;
+margin-left: 45px;
+margin-top: -299px;
+margin-bottom: 50px;
+}
+
+#inthepressicon {
+position: relative;
+float: left;
+margin-left: 20px;
+margin-top: -299px;
+margin-bottom: 50px;
+}
+
+#contactusicon {
+position: relative;
+float: left;
+margin-left: 20px;
+margin-top: -299px;
+margin-bottom: 50px;
+}
+
+#galleryicon {
+position: relative;
+float: left;
+margin-left: 20px;
+margin-top: 30px;
+}
+     
+
+</style>
+</head>
+<body>
+
+    
+<div id ="Navigation-bar-container">
+    
+<div id="image-logo">
+    
+<img id ="logoimg" src="images/logo.jpg">
+    
+</div>
+   
+<ul> 
+    
+<li><a href="home.html"id="Nav-bar-text" class="home-margin">Home</a></li>
+     
+<li><a href="about.html"id="Nav-bar-text">About</a></li>
+    
+<li class="dropdown"> 
+
+<a href="services.html"class="dropbtn"id="Nav-bar-text">Services</a>
+           
+<div class="dropdown-content"> 
+<a href="weddings.html">Weddings</a>
+<a href="parties.html">Parties</a>
+<a href="destinations.html">Destinations</a> 
+</div>
+    
+</li>
+      
+<li><a href="gallery.html"id="Nav-bar-text" class="gallery-margin">Gallery</a></li>
+       
+<li><a href="coursesandworkshops.html"id="Nav-bar-text">Courses</a></li>
+    
+<li> <a href="contactus.html"id="Nav-bar-text">Contact</a></li>
+    
+</ul>
+    
+</div>    
+        
+<div class="slideshow-container">
+    
+<div class="mySlides fade">
+    
+<img id="slideshowphoto" src="images/pic1.jpg">
+    
+</div>
+    
+<div class="mySlides fade">
+    
+<img id="slideshowphoto" src="images/pic2.jpg">
+    
+</div>
+    
+<div class="mySlides fade">
+    
+<img id="slideshowphoto" src="images/pic33.jpg">
+    
+</div>
+    
+</div>
+    
+<br>
+    
+<div style="text-align: center">
+    
+</div>
+        
+<div id="content">
+    
+<h3 id="content-title">The As You Wish Ethos</h3>
+    
+<img src="images/underline.jpg" id="underline"/>
+    
+<p id="frontpagetext">Want to plan the perfect event? You’re in the right place.<br>'As You Wish' Events is an award-winning,first class, luxury <br>event planner in London covering the surrounding counties<br> and destinations worldwide.<br><br>
+
+We design and produce events of all kinds, from sumptuous<br> private affairs and large-scale corporate events to exquisite<br> luxury weddings. We don’t just plan your event – we create<br> an unforgettable experience for you and your guests.<br><br>
+        
+Put simply, the 'As You Wish' Events team love planning events!<br> We are a creative team of event planners,stylists, resourceful<br> researchers, relationship managers and project managers<br> who thrive on detail and have some serious organisational skills!<br><br>
+        
+Whether it’s a wedding, large celebration event, corporate<br> dinner or child’s birthday party our goal is to create stunning<br> events that will inspire and excite! Visit our services page to<br> read more about our most popular offerings.</p>
+    
+<img src="images/photograb.png" id="photograb"/>
+    
+</div>
+
+<div class="Testimonial-container">
+<img src="images/yellowscribble.jpg" id="yellow">
+
+<div class="myTestimonial">
+<q>You have a gift! You translated all my wedding ideas, thoughts and wants in a concise way, I'm beaming and sooo impressed. You don't fail to wow me.</q>
+<p class="author">- Hawa, Italy </p>
+</div>
+
+<div class="myTestimonial">
+<q>After working with Shanita at As You Wish Events, we now understand the importance of a wedding planner. My wedding was elegant, exciting, entertaining and stress free. Thanks so much!</q>
+<p class="author">- Rachel, London</p>
+</div>
+
+<div class="myTestimonial">
+<q>Shanita transformed my idea for an engagement party into a classy yet informal and fun occasion. Our guests were more flabbergasted than I was. The atmosphere promoted a beautiful ambiance of fun and excitement, as well as comfort. As You Wish Events made my event unforgettable!</q>
+<p class="author">- Ashley, Portugal</p>
+</div> 
+
+<a class="prev" onclick="plusTestimonial(-1)">❮</a>
+    
+<a class="next" onclick="plusTestimonial(1)">❯</a>
+
+</div>
+
+<div class="dot-container">
+    
+<span class="dot" onclick="currentTestimonial(1)"></span> 
+<span class="dot" onclick="currentTestimonial(2)"></span> 
+<span class="dot" onclick="currentTestimonial(3)"></span> 
+    
+</div>
+
+<div id="frontpage-blocks">
+    
+<a href="weddings.html"><img src="images/weddings-icon.png" id="weddingsicon"></a>  
+    
+<a href="parties.html"><img src="images/parties-icon.png" id="partiesicon"></a> 
+    
+<a href="destinations.html"><img src="images/destination-icon.png" id="destinationsicon"></a>
+    
+<a href="coursesandworkshops.html"><img src="images/coursesandworkshop-icon.png" id="coursesandworkshopsicon"></a> 
+    
+<a href="gallery.html"><img src="images/gallery-icon.png" id="galleryicon"></a> 
+    
+<a href="books.html"><img src="images/books-icon.png" id="booksicon"></a> 
+    
+<a href="inthepress.html"><img src="images/inthepress-icon.png" id="inthepressicon"></a> 
+    
+<a href="contactus.html"><img src="images/contactus-icon.png" id="contactusicon"></a> 
+    
+</div>
+        
+<script>
+
+/** Frontpage Photo Slideshow **/
+        
+var slideIndex = 0;
+showSlides();
+        
+function showSlides() {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";  
+}
+        
+slideIndex++;
+if (slideIndex > slides.length) {slideIndex = 1}    
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+    
+slides[slideIndex-1].style.display = "block";  
+dots[slideIndex-1].className += " active";
+setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+/** Testimonial Slideshow**/
+
+var TestimonialIndex = 1;
+showTestimonial(TestimonialIndex);
+
+function plusTestimonial(n) {
+showTestimonial(TestimonialIndex += n);
+}
+
+function currentTestimonial(n) {
+showTestimonial(TestimonialIndex = n);
+}
+
+function showTestimonial(n) {
+var i;
+var Testimonial = document.getElementsByClassName("myTestimonial");
+var dots = document.getElementsByClassName("dot");
+if (n > Testimonial.length) {TestimonialIndex = 1}    
+if (n < 1) {TestimonialIndex = Testimonial.length}
+for (i = 0; i < Testimonial.length; i++) {
+Testimonial[i].style.display = "none";  
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+Testimonial[TestimonialIndex-1].style.display = "block";  
+dots[TestimonialIndex-1].className += " active";
+}
+
+    testing. 
+
+</script>
+</body>
+</html>
